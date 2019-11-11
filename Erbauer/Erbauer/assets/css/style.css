@@ -1,71 +1,82 @@
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
 
 /* Header */
 
 .header {
-    background: #005171;
-    min-height: 50px;
-    color: #ffffff;
+  background: #005171;
+  min-height: 50px;
+  color: #ffffff;
 }
-
 
 /* Section 1 */
 
 .section1 {
-    background: url("../media/images/sec1-bg.png");
-    min-height: 50px;
-    color: #ffffff;
+  background: url("../media/images/sec1-bg.png");
+  min-height: 50px;
+  color: #ffffff;
 }
-
 
 /* Section 2 */
 
 .section2 {
-    background: #ffffff;
-    min-height: 50px;
-    color: #4e4e4e;
+  background: #ffffff;
+  min-height: 50px;
+  color: #4e4e4e;
 }
-
 
 /* Section 3 */
 
 .section3 {
-    background: #ffffff;
-    min-height: 50px;
-    color: #4e4e4e;
+  background: #ffffff;
+  min-height: 50px;
+  color: #4e4e4e;
 }
-
 
 /* Section 4 */
 
 .section4 {
-    position: relative;
-    overflow: hidden;
-    background-color: black;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
 }
 
 .section4 video {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.5;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
 }
 
 .section4 .container {
-    z-index: 2;
-    position: relative;
+  z-index: 2;
+  position: relative;
 }
-
 
 /* Footer */
 
 .footer {
-    background: #ffffff;
-    min-height: 20px;
+  background: #ffffff;
+  min-height: 20px;
+}
+
+/* Flex for Safari*/
+.d-flex {
+  display: -webkit-box !important;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center !important;
+}
+
+.justify-content-end {
+  -webkit-box-pack: end !important;
+}
+
+.align-items-center {
+  -webkit-box-align: center !important;
 }
